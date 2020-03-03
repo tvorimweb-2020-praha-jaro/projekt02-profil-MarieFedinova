@@ -43,28 +43,22 @@ p {
     text-align: left;
 }
 
-.odkazy {
-    font-family: 'Montserrat';
-}
 .foto {
     width: 250px;
     position: static;
 }
 
 .logo {
-    position: relative;
-    left: 170px;
-    bottom: 25px;
+    position: absolute;
+    left: 820px;
+    top: 145px;
     background-color: #b92e81;
     border-radius: 50%;
     box-shadow: 0 2px 10px black;
 }
 
-.hlavicka {
-    height: 200px;
-}
-
 .odkazy {
+    font-family: 'Montserrat';
     text-transform: uppercase;
     text-align: center;
     padding-left: 0;    
@@ -74,16 +68,14 @@ p {
     display: inline-block;
     height: 3rem;
     font-weight: 600;
-    border-top: 1px #3f464d solid;
-    
+    border-top: 1px #3f464d solid;  
 }
 
 .odkazy a {
 	display: block;
 	color: white;
     text-decoration: none;
-    height: 3rem;
-    padding-top: 1rem;
+    padding: 0.9rem 0;
 }
 
 .facebook,
